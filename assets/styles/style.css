@@ -1,0 +1,227 @@
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+#page-container {
+	position:relative;
+	min-height: 100vh;
+}
+#content-wrap {
+	padding-bottom: 2.5rem;
+}
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;   
+}
+footer {
+	background-color: #A66B03;
+}
+	/**********START INDEX HTML************/
+
+
+.index-content {
+	text-align: center;
+	padding-top: 5%;
+}
+.bg-img {
+	background:url(../images/Index-photos/background.jpg) center fixed;
+	min-height: 10vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.index-button {
+	margin-top: 3%;
+}
+.button {
+	color:black;
+}
+.button:hover {
+	border-radius: 5px;
+	border:2px #E6AB28 solid;
+	padding:10px;
+	color:black;
+	text-decoration: none;
+}
+@media only screen and (min-width: 300px){
+	.index-logo {
+		width: 100%;
+	}
+	.bg-img {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+}
+@media only screen and (min-width: 801px)  {
+	.index-logo {
+		width: 30%;
+	}
+}
+
+ /**********************8 START OF HOME STLYE***************/
+
+.home-nav {
+	margin-left: 20%;
+}
+.hero-banner {
+	background:url(../images/home-photos/594977f798aff4f71f8b457e-1136-852.jpg);
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav-text {
+	color:#E6AB28;
+	font-size: 30px;
+	padding-top: 30px
+	
+}
+.home-credentials {
+	background: url(../images/home-photos/background-choreo.jpg);
+	background-repeat: : no-repeat;
+	background-size: cover;
+	min-height: 55vh;
+
+}
+.main-home {
+	background:url(../images/home-photos/ZenBG.png);
+	min-height: 20vh;
+	background-repeat: : no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.main-content {
+	margin-top: 2%;
+	border-radius: 2px;
+}
+.content-video {
+	height: 320px;
+	width: 100%;
+}
+.h1-main-home {
+	padding-top: 2%;
+	color:#E6AB28;
+}
+/*.p-content {
+	margin-top: 2%;
+}*/
+.list-none {
+	list-style: none;
+}
+.heading-home-credentials{
+	text-align: center;
+	padding-top: 4%;
+
+}
+.choreographers-male {
+	color:white;
+}
+.content-choreographers {
+	text-align: center;
+}
+.img-choreographers {
+	height:175px;
+	border-radius: 100px;
+	border: 3px white solid;
+	margin-top: 5%;
+}
+.home-testimonial  {
+	background: url(../images/home-photos/ZenBG.png);
+	min-height:30vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.home-content {
+	width:100%;
+	min-height: 10vh;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.img-card {
+	height: 200px;
+	/*width: 10px;*/
+}
+.footer {
+	color:white;
+}
+
+
+/****************START OF ABOUT HTML****************8*/
+.about-body {
+	background:url(../images/Wedding-Dance-Lessons-Slider-right-couple-2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100%;
+	/*background-position: fixed;*/
+}
+.about-content {
+	margin-top: 3%;
+}
+.about-logo {
+	width: 50%;
+}
+.gold {
+	color:#E6AB28;
+}
+.nav-anchor {
+	color:black;
+}
+.navbar-toggler-icon {
+	color:black;
+}
+/*******************START OF GALLERY HTML************/
+
+.img-nav {
+	height: 30px;
+}
+.main-modal-img {
+	/*height: 60%;*/
+	width: 100%;
+	/*overflow: hidden;*/
+}
+.modal-img {
+	height: 100%;
+	width: 100%;
+}
+.pointer {
+	cursor: pointer;
+}
+.modalbody {
+	min-height: 100px;
+}
+.modal-dialog {
+	max-width: 1000px;
+}
+.gallery-footer {
+	color:white;
+}
+.img-color {
+	  filter: gray;
+      -webkit-filter: grayscale(1); 
+      -webkit-transition: all .5s ease-in-out;  
+      border-radius: 2px;
+}
+.img-color:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+}
+@media only screen and (min-width: 300px;) {
+	.modal-dialog {
+		max-width:500px;
+	}
+}
+/***********START OF CONTACT HTML***************/
+.google-maps {
+	width: 100%;
+	height: 100%;
+}
+.contact-body {
+	background: url(../images/Wedding-Dance-Lessons-Slider-left-couple.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position: left-center;*/
+	min-height: 100vh;
+}
